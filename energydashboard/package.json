@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "dev": "webpack --mode development --watch ./energydashboard/dashboardfrontend/src/index.js --output ./energydashboard/dashboardfrontend/static/frontend/main.js",
-    "build": "webpack --mode production ./energydashboard/dashboardfrontend/src/index.js --output ./energydashboard/dashboardfrontend/static/frontend/main.js"
+    "build": "webpack --mode production ./energydashboard/dashboardfrontend/src/index.js --output ./energydashboard/dashboardfrontend/static/frontend/main.js",
+    "start": "webpack --mode development energydashboard/frontend/src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -40,5 +42,8 @@
     "url-loader": "^2.2.0",
     "viser-react": "^2.4.8",
     "viser-vue": "^2.4.8"
+  }, "engines": {
+    "node": "11.14.0",
+    "npm": "6.7.0"
   }
 }
