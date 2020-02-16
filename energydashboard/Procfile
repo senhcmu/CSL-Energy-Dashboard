@@ -1,0 +1,2 @@
+release: cd energydashboard && python manage.py migrate
+web: gunicorn --chdir energydashboard energydashboard.wsgi
