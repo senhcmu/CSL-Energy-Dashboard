@@ -1,0 +1,19 @@
+{"nodes":
+    [{"name":"Total Purchased Electricity"},
+    {"name":"Solar Power"},
+
+
+
+    {"name":"Lighting"},
+    {"name":"Appliances"},
+    {"name":"HVAC"},
+    {"name":"Equipment"}],
+    "links":[{"source":0,"target":2,"value":5},
+        {"source":0,"target":3,"value":1},
+        {"source":0,"target":4,"value":1},
+        {"source":0,"target":5,"value":1},
+
+        {"source":1,"target":2,"value":1},
+        {"source":1,"target":3,"value":5},
+        {"source":1,"target":4,"value":1},
+        {"source":1,"target":5,"value":1}]}

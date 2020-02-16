@@ -1,0 +1,45 @@
+{"type":"FeatureCollection",
+    "features":
+    [
+        {"type":"Feature",
+            "properties":
+            {"code":"MA","name":"Massachusetts","cp":[-105.0,5.0]},"geometry":
+                {"type":"Polygon","coordinates":[
+                    [
+                    [-100.0, 0.0],
+                    [-110.0, 0.0],
+                    [-110.0, 5.0],
+                    [-100.0, 5.0],
+                    [-100.0, 0.0]]
+                ]
+                }},
+                {"type":"Feature",
+                    "properties":
+                    {"code":"MA","name":"Pittsburgh","cp":[-205.0,5.0]},"geometry":
+                        {"type":"Polygon","coordinates":[
+                            [
+                            [-200.0, 0.0],
+                            [-210.0, 0.0],
+                            [-210.0, 1.0],
+                            [-200.0, 1.0],
+                            [-200.0, 0.0]]
+                        ]
+                        }},
+                        {"type":"Feature",
+                            "properties":
+                            {"code":"MA","name":"Boston","cp":[-155.0,5.0]},"geometry":
+                                {"type":"Polygon","coordinates":[
+                                    [
+                                    [-150.0, 0.0],
+                                    [-160.0, 0.0],
+                                    [-160.0, 10.0],
+                                    [-150.0, 10.0],
+                                    [-150.0, 0.0]]
+                                ]
+                                }}
+
+
+            ]}
+
+
+            
